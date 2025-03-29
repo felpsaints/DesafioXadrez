@@ -2,7 +2,7 @@
  
 int main() {
  
-    int i;
+    int i, j;
 
     printf("Movimento da torre no xadrez\n");
     for(i = 0; i < 5; i++){
@@ -25,6 +25,19 @@ int main() {
         i++;
     } while (i <= 8);
 
+
+    printf("Movimento do cavalo no xadrez\n");
+    for (int i = 0; i < 2; i++) {
+        printf("Baixo\n");
+        
+        int j = 0;
+        while (j < 1) {
+            if (i == 1) {  
+                printf("Esquerda\n");
+            }
+            j++;
+        }
+    }
 
     return 0;
 }
